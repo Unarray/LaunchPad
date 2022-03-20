@@ -1,0 +1,45 @@
+---
+
+#
+#   __      __                ___   ____        _  _____ _    _
+#   \ \    / /               |__ \ / __ \      (_)/ ____| |  (_)
+#    \ \  / /__ _ __ _ __ ___   ) | |  | |_   _ _| (___ | | ___
+#     \ \/ / _ \ '__| '__/ _ \ / /| |  | | | | | |\___ \| |/ / |
+#      \  /  __/ |  | | |  __// /_| |__| | |_| | |____) |   <| |
+#       \/ \___|_|  |_|  \___|____|\____/ \__,_|_|_____/|_|\_\_|
+#
+
+# Do you have a problem ?
+# 
+# Discord (en) : https://discord.gg/P8R4WhARrY
+# Discord (fr) : https://discord.gg/DnmRbAxMbN
+
+
+
+# --- Pressure plates IDs -
+#   ACACIA_PRESSURE_PLATE = 405
+#   BIRCH_PRESSURE_PLATE = 406
+#   DARK_OAK_PRESSURE_PLATE = 407
+#   HEAVY_WEIGHTED_PRESSURE_PLATE = 148
+#   JUNGLE_PRESSURE_PLATE = 408
+#   LIGHT_WEIGHTED_PRESSURE_PLATE = 147
+#   SPRUCE_PRESSURE_PLATE = 409
+#   STONE_PRESSURE_PLATE = 70
+#   WOODEN_PRESSURE_PLATE = 72
+
+
+
+70: # Pressure plate ID
+  152: # Block under pressure plate ID
+    mutiplier: 2
+    height: 1
+
+147:
+  152:
+    mutiplier: 5
+    height: 1
+  57:
+    mutiplier: 2
+    height: 4
+
+...

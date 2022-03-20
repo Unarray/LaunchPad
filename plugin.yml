@@ -1,0 +1,12 @@
+---
+name: LaunchPad
+version: 1.0.0
+main: Verre2OuiSki\LaunchPad\LaunchPad
+api: 4.0.0
+src-namespace-prefix: Verre2OuiSki\LaunchPad
+
+
+author: Verre2OuiSki
+description: Launch players in the air ! !
+website: https://github.com/Verre2OuiSki
+...
