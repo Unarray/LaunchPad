@@ -20,7 +20,6 @@ For any problems, you can reach me at "Reach ME" tab !
 
 # 🤔 How to use ?
 
-### Structure :
 ```yml
 pressure_plate:
   block:
