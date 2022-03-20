@@ -32,7 +32,10 @@ pressure_plate:
 `mutiplier`         => Velocity<br>
 `height`            => launching height<br><br><br>
 
-### Exemple :
+---
+
+Exemple :
+
 We want a gold pressure plate *(147)*<br>
 If block under this plate is a redstone block *(152)* player will be launch with a multiplier of 5 and height of 1<br>
 If block under this plate is a diamond block *(57)* player will be launch with a multiplier of 2 and height of <br><br>
