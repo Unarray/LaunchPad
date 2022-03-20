@@ -5,7 +5,7 @@
     <img src="https://raw.githubusercontent.com/Verre2OuiSki/LaunchPad/main/icon.png" style="height: 8em;"></img>
     <br>
     <b>
-      A configurable <i>PocketMine-MP</i> plugin allows you to setup <i>Launch Pads<i> in your worlds
+      A configurable <i>PocketMine-MP</i> plugin allows you to setup <i>Launch Pads</i> in your worlds
     </b>
 </p>
 
