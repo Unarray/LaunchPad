@@ -27,26 +27,26 @@ pressure_plate:
     height: x
 ```
 
-`pressure_plate`    => ID of the pressure plate<br>
-`block`             => ID of the block under the pressure plate<br>
+`pressure_plate`    => The pressure plate<br>
+`block`             => The block under the pressure plate<br>
 `mutiplier`         => Velocity<br>
-`height`            => launching height<br><br><br>
+`height`            => Launching height<br><br><br>
 
 ---
 
 Exemple :
 
-We want a gold pressure plate *(147)*<br>
-If block under this plate is a redstone block *(152)* player will be launch with a multiplier of 5 and height of 1<br>
-If block under this plate is a diamond block *(57)* player will be launch with a multiplier of 2 and height of <br><br>
+We want a gold pressure plate *(light_weighted_pressure_plate)*<br>
+If block under this plate is a redstone block *(redstone_block)* player will be launch with a multiplier of 5 and height of 1<br>
+If block under this plate is a diamond block *(diamond_block)* player will be launch with a multiplier of 2 and height of <br><br>
 
 in config.yml it will be :
 ```yml
-147:
-  152:
+light_weighted_pressure_plate:
+  redstone_block:
     mutiplier: 5
     height: 1
-  57:
+  diamond_block:
     mutiplier: 2
     height: 4
 ```
@@ -72,31 +72,16 @@ in config.yml it will be :
 # Discord (en) : https://discord.gg/P8R4WhARrY
 # Discord (fr) : https://discord.gg/DnmRbAxMbN
 
-
-
-# --- Pressure plates IDs -
-#   ACACIA_PRESSURE_PLATE = 405
-#   BIRCH_PRESSURE_PLATE = 406
-#   DARK_OAK_PRESSURE_PLATE = 407
-#   HEAVY_WEIGHTED_PRESSURE_PLATE = 148
-#   JUNGLE_PRESSURE_PLATE = 408
-#   LIGHT_WEIGHTED_PRESSURE_PLATE = 147
-#   SPRUCE_PRESSURE_PLATE = 409
-#   STONE_PRESSURE_PLATE = 70
-#   WOODEN_PRESSURE_PLATE = 72
-
-
-
-70: # Pressure plate ID
-  152: # Block under pressure plate ID
+stone_pressure_plate: # Pressure plate
+  redstone_block: # Block under pressure plate
     mutiplier: 2
     height: 1
 
-147:
-  152:
+light_weighted_pressure_plate:
+  redstone_block:
     mutiplier: 5
     height: 1
-  57:
+  diamond_block:
     mutiplier: 2
     height: 4
 
