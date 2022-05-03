@@ -53,8 +53,6 @@ class LaunchPad extends PluginBase implements Listener{
         $pos = $player->getPosition();
         $block = $world->getBlock($pos);
 
-        if(!$block) return;
-
         $block_config = $this->blocks[$block->getId()] ?? null;
 
         if( !$block_config ) return;
