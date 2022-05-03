@@ -14,21 +14,6 @@
 # Discord (en) : https://discord.gg/P8R4WhARrY
 # Discord (fr) : https://discord.gg/DnmRbAxMbN
 
-
-
-# --- Pressure plates IDs -
-#   ACACIA_PRESSURE_PLATE = 405
-#   BIRCH_PRESSURE_PLATE = 406
-#   DARK_OAK_PRESSURE_PLATE = 407
-#   HEAVY_WEIGHTED_PRESSURE_PLATE = 148
-#   JUNGLE_PRESSURE_PLATE = 408
-#   LIGHT_WEIGHTED_PRESSURE_PLATE = 147
-#   SPRUCE_PRESSURE_PLATE = 409
-#   STONE_PRESSURE_PLATE = 70
-#   WOODEN_PRESSURE_PLATE = 72
-
-
-
 stone_pressure_plate: # Pressure plate ID
   redstone_block: # Block under pressure plate ID
     mutiplier: 2

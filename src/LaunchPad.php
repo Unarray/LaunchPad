@@ -49,7 +49,9 @@ class LaunchPad extends PluginBase implements Listener{
 
         if( $event->getTo()->asVector3()->equals($event->getFrom()) ) return;
 
-        $block = $world->getBlock($player->getPosition());
+
+        $pos = $player->getPosition();
+        $block = $world->getBlock($pos);
 
         if(!$block) return;
 
@@ -57,7 +59,7 @@ class LaunchPad extends PluginBase implements Listener{
 
         if( !$block_config ) return;
 
-        $block_under = $world->getBlock( $player->getPosition()->add(0, -1, 0) );
+        $block_under = $world->getBlock( $pos->add(0, -1, 0) );
 
         $config_block_under = $block_config[$block_under->getId()] ?? null;
 
